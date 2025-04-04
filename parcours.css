@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+.resume{
+    display: flex;
+    width: 800px;
+    margin: 50px auto;
+    padding: 10px;
+
+}
+.resume .resume_left {
+    width: 35%;
+    background-color: #f8f1e0;
+    border-right: 1px solid #af7a4e;
+   
+    
+    
+}
+
+.resume .resume_left .resume_img{
+   
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 50px;
+    
+    
+    
+  
+    
+  }
+  .resume .resume_left .resume_img img{
+      width: 100%;
+      display: block;
+      border-radius: 20%;
+      
+      
+  }  
+  .resume .resume_left .resume_namerole .name{
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+  }
+  
+  
+  .resume .resume_title{
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+  
+    text-transform:uppercase;
+       
+  }
+  .resume .resume_subtitle{
+    
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+
+    
+  }  
+  .resume .resume_subinfo{
+    margin-top: 5px;
+  }
+ .resume .resume_left .resume_bottom{
+    padding: 20px 30px ;
+    
+ }  
+ .resume .resume_item{
+    padding: 10px 0;
+    border-bottom: 1px solid #af7a4e;
+ }
+ .resume .resume_item:las{
+  padding: 10px 0;
+  border-bottom: 1px solid #af7a4e;
+}
+ 
+ .resume .resume_left .resume_skills .skills_list{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+ }
+ .resume .resume_left .resume_skills .skills_list .skills_bar{
+  margin-top: 8px;
+ }
+ .resume .resume_left .resume_skills .skills_list .skills_bar p{
+   position: relative;
+   width: 125px;
+   height: 8px;
+   background-color:  #dcc99d;
+   border-radius: 20px;
+ }
+ .resume .resume_left .resume_skills .skills_list .skills_bar p span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #af7a4eda;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+ }
+ .resume .resume_left .resume_langues .Langues_list{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+ }
+ .resume .resume_left .resume_langues .Langues_list .Langues_bar{
+  margin-top: 8px;
+ }
+ .resume .resume_left .resume_langues .Langues_list .Langues_bar p{
+   position: relative;
+   width: 125px;
+   height: 8px;
+   background-color:  #dcc99d;
+   border-radius: 20px;
+ }
+ .resume .resume_left .resume_langues .Langues_list .Langues_bar p span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #af7a4eda;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+ }
+
+ .resume .resume_right{
+  width: 65%;
+  padding: 20px 30px;
+  background-color: #f8f1e0;
+  
+ }
+ .resume .resume_r{
+  margin-top: 40px;
+ }
+ .resume .resume_right .resume_namerole .name{
+  font-size: 32px;
+  font-weight: bold;
+ }
+ .resume .resume_right .resume_namerole .role{
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 5px;
+ }
+ .resume .resume_right .resume_title{
+  
+  margin-bottom: 10px;
+ }
+ 
+ 
+ .resume .resume_right .resume_data{
+  display: flex;
+ 
+ }
+ .resume .resume_right .resume_data .year{
+  padding-right: 35px;
+  width: 300px;
+  position: relative;
+ }
+  
+ .resume .resume_right .resume_data .content{
+  padding-left: 35px;
+  margin-bottom: 20px;
+  width: 100%;
+  
+
+ }
+ .resume .resume_data:last-child{
+  margin-top: 13px;
+ }
+ .resume .resume_right .resume_data .year:before{
+  content: "";
+  position: absolute;
+  top: 11px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border: 1px solid black;
+  border-radius: 50%;
+  
+ }
+ .resume .sub_content{
+  margin-top: 5px;
+  color: #af7a4eda;
+ }
+ 
+ 
+ 
